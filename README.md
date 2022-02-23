@@ -19,7 +19,9 @@ The dataset contains medical records of 70000 people, with 11 columns describing
 Algorithms
 
 Feature Engineering
+
 Baseline - Logistic Regression
+
 Model Evaluation and Selection
 The entire dataset was split into 80/20/20 train, validation, and holdout data. Scores reported below were only calculated on the validation part, and predictions were made on the 20% holdout. The recall was used to measure the model's accuracy because for this project is more important to identify correctly positive class. 
 Random Forest accuracy after tuning hyperparameters:
